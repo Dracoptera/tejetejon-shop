@@ -33,12 +33,13 @@ function App() {
                 </svg>
               </a>
             </div>
-            <h1>
-              <Link to="/" className="logo-link">
-                🦡 Tejetejón 🦡
-              </Link>
-            </h1>
-            <p className="subtitle">Amigurumis disponibles</p>
+            <Link to="/" className="logo-link">
+              <img 
+                src="/media/LOGO_Tejetejon [RGB]-01.png" 
+                alt="Tejetejón" 
+                className="logo-image"
+              />
+            </Link>
           </div>
         </header>
 
