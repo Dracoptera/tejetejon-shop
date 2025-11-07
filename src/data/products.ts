@@ -1,0 +1,340 @@
+import { Producto } from '../types';
+
+export const productos: Producto[] = [
+  {
+    id: "grifo-grande",
+    nombre: "Grifo Grande",
+    precio: "$1,500",
+    images: [
+      "/media/Amigurumi-01.jpg",
+      "/media/Amigurumi-02.jpg",
+      "/media/Amigurumi-03.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana peluche (chenille)",
+  },
+  {
+    id: "axolote",
+    nombre: "Axolote",
+    precio: "$500",
+    images: [
+      "/media/Amigurumi-04.jpg",
+    ],
+    tamaño: "18 cm",
+    materiales: "Hilado de algodón"
+  },
+  {
+    id: "bowl-dragon-purpura",
+    nombre: "Bowl de dragón púrpura",
+    precio: "$500",
+    images: [
+      "/media/Amigurumi-05.jpg",
+      "/media/Amigurumi-06.jpg",
+    ],
+    tamaño: "22 cm",
+    materiales: "Hilado de algodón",
+    notas: "Este bowl es blandito, no tiene alambre ni ningún tipo de material firme. Se puede 'aplatar' y amoldar"
+  },
+  {
+    id: "mantarraya",
+    nombre: "Mantarraya",
+    precio: "$1,500",
+    images: [
+      "/media/Amigurumi-07.jpg",
+      "/media/Amigurumi-08.jpg",
+      "/media/Amigurumi-09.jpg"
+    ],
+    tamaño: "25 cm",
+    materiales: "Hilado de algodón"
+  },
+  {
+    id: "ranita",
+    nombre: "Ranita",
+    precio: "$400",
+    images: [
+      "/media/Amigurumi-11.jpg",
+      "/media/Amigurumi-12.jpg",
+      "/media/Amigurumi-13.jpg"
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón y alambre para las extremidades.",
+    notas: "Se puede agregar impermeable y botas por $400 más.",
+  },
+  {
+    id: "oveja",
+    nombre: "Oveja",
+    precio: "$400",
+    images: [
+      "/media/Amigurumi-15.jpg",
+      "/media/Amigurumi-17.jpg",
+      "/media/Amigurumi-18.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana merino",
+  },
+  {
+    id: "tacosaurio",
+    nombre: "Tacosaurio",
+    precio: "$400",
+    images: [
+      "/media/Amigurumi-19.jpg",
+      "/media/Amigurumi-20.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana peluche (chenille)",
+  },
+  {
+    id: "pelicano",
+    nombre: "Pelícano",
+    precio: "$600",
+    images: [
+      "/media/Amigurumi-21.jpg",
+      "/media/Amigurumi-22.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "pulpo",
+    nombre: "Pulpo",
+    precio: "$600",
+    images: [
+      "/media/Amigurumi-23.jpg",
+      "/media/Amigurumi-24.jpg",
+      "/media/Amigurumi-25.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón, bolitas de plástico (beads)",
+  },
+  {
+    id: "criatura tomate",
+    nombre: "Criatura tomate",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-26.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "rata",
+    nombre: "Rata",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-27.jpg",
+      "/media/Amigurumi-28.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana acrílica",
+  },
+  {
+    id: "cachorro-grifo",
+    nombre: "Cachorro de Grifo",
+    precio: "$500",
+    images: [
+      "/media/Amigurumi-29.jpg",
+      "/media/Amigurumi-30.jpg",
+      "/media/Amigurumi-31.jpg",
+      "/media/Amigurumi-32.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "paloma-con-sombrero",
+    nombre: "Paloma con sombrero",
+    precio: "$600",
+    images: [
+      "/media/Amigurumi-33.jpg",
+      "/media/Amigurumi-34.jpg",
+      "/media/Amigurumi-35.jpg",
+      "/media/Amigurumi-36.jpg",
+      "/media/Amigurumi-37.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "caracol-gigante",
+    nombre: "Caracol Gigante",
+    precio: "$1,000",
+    images: [
+      "/media/Amigurumi-38.jpg",
+      "/media/Amigurumi-39.jpg",
+      "/media/Amigurumi-40.jpg",
+      "/media/Amigurumi-41.jpg",
+      "/media/Amigurumi-42.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón, Lana acrílica",
+  },
+  {
+    id: "oruga",
+    nombre: "Oruga",
+    precio: "$700",
+    images: [
+      "/media/Amigurumi-43.jpg",
+      "/media/Amigurumi-44.jpg",
+      "/media/Amigurumi-45.jpg",
+      "/media/Amigurumi-46.jpg",
+
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana merino",
+  },
+  {
+    id: "trilobite",
+    nombre: "Trilobite",
+    precio: "$700",
+    images: [
+      "/media/Amigurumi-47.jpg",
+      "/media/Amigurumi-48.jpg",
+      "/media/Amigurumi-49.jpg",
+      "/media/Amigurumi-50.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "bowl-dragon-verde",
+    nombre: "Bowl de dragón verde",
+    precio: "$500",
+    images: [
+      "/media/Amigurumi-51.jpg",
+      "/media/Amigurumi-52.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "fenix",
+    nombre: "Fénix",
+    precio: "$1,000",
+    images: [
+      "/media/Amigurumi-53.jpg",
+      "/media/Amigurumi-54.jpg",
+      "/media/Amigurumi-55.jpg",
+      "/media/Amigurumi-56.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Lana acrílica",
+  },
+  {
+    id: "gallina",
+    nombre: "Gallina",
+    precio: "$600",
+    images: [
+      "/media/Amigurumi-56.jpg",
+      "/media/Amigurumi-57.jpg",
+      "/media/Amigurumi-58.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "benteveo",
+    nombre: "Benteveo",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-59.jpg",
+      "/media/Amigurumi-60.jpg",
+      "/media/Amigurumi-61.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "murcielago",
+    nombre: "Murciélago",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-62.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "owlbear",
+    nombre: "Owlbear",
+    precio: "$350",
+    images: [
+      "/media/Amigurumi-63.jpg",
+      "/media/Amigurumi-64.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "tordo",
+    nombre: "Tordo",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-65.jpg",
+      "/media/Amigurumi-66.jpg",
+      "/media/Amigurumi-67.jpg",
+      "/media/Amigurumi-68.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "dino-colorido",
+    nombre: "Dino Colorido",
+    precio: "$250",
+    images: [
+      "/media/Amigurumi-69.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "gaviota-aviadora",
+    nombre: "Gaviota Aviadora",
+    precio: "$600",
+    images: [
+      "/media/Amigurumi-70.jpg",
+      "/media/Amigurumi-71.jpg",
+      "/media/Amigurumi-72.jpg",
+      "/media/Amigurumi-73.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "zorro-tejedor",
+    nombre: "Zorro Tejedor",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-74.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "buho-lector",
+    nombre: "Búho Lector",
+    precio: "$300",
+    images: [
+      "/media/Amigurumi-75.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+  {
+    id: "aurum",
+    nombre: "Aurum el Zorro Alquimista",
+    precio: "$1,500",
+    images: [
+      "/media/IMG_9605.jpg",
+      "/media/IMG_9607.jpg",
+      "/media/IMG_9608.jpg",
+      "/media/IMG_9609.jpeg",
+      "/media/IMG_9610.jpg",
+      "/media/IMG_9616.jpg",
+      "/media/IMG_9618.jpg",
+    ],
+    tamaño: "20 cm",
+    materiales: "Hilado de algodón",
+  },
+];
+
