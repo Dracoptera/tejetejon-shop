@@ -89,10 +89,10 @@ export function ProductDetail() {
                       loading="eager"
                       decoding="async"
                       fetchPriority="high"
+                      className="carousel-main-img"
                       style={{
                         width: '100%',
                         height: '100%',
-                        objectFit: 'cover',
                         borderRadius: '12px',
                         transition: 'opacity 0.2s ease-in-out'
                       }}

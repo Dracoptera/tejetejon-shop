@@ -59,10 +59,10 @@ export function Gallery() {
                       loading={isFirstRow ? 'eager' : 'lazy'}
                       decoding="async"
                       fetchPriority={isFirstRow ? 'high' : 'auto'}
+                      className="product-img"
                       style={{
                         width: '100%',
                         height: '100%',
-                        objectFit: 'cover',
                         opacity: loadedImages.has(imageSrc) ? 1 : 0,
                         transition: 'opacity 0.3s ease-in-out'
                       }}
