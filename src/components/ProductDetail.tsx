@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useCallback } from 'react';
 import { productos } from '../data/products';
 
 export function ProductDetail() {
@@ -8,6 +8,8 @@ export function ProductDetail() {
   const producto = productos.find((p) => p.id === id);
   const images = useMemo(() => producto?.images ?? [], [producto]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
   const { prevId, nextId } = useMemo(() => {
     const ids = productos.map(p => p.id);
     const idx = ids.findIndex(pid => pid === id);
@@ -53,6 +55,39 @@ export function ProductDetail() {
     setCurrentIndex((prev) => (prev + 1) % images.length);
   };
 
+  const openLightbox = useCallback((index: number) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+  }, []);
+
+  const closeLightbox = useCallback(() => {
+    setLightboxOpen(false);
+    document.body.style.overflow = ''; // Restore scrolling
+  }, []);
+
+  const lightboxPrev = () => {
+    setLightboxIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const lightboxNext = () => {
+    setLightboxIndex((prev) => (prev + 1) % images.length);
+  };
+
+  // Handle ESC key to close lightbox
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && lightboxOpen) {
+        closeLightbox();
+      }
+    };
+
+    if (lightboxOpen) {
+      window.addEventListener('keydown', handleEscape);
+      return () => window.removeEventListener('keydown', handleEscape);
+    }
+  }, [lightboxOpen, closeLightbox]);
+
   // Preload adjacent images for smoother carousel experience
   useEffect(() => {
     if (!images.length) return;
@@ -69,6 +104,13 @@ export function ProductDetail() {
     });
   }, [currentIndex, images]);
 
+  // Cleanup: restore body overflow when component unmounts
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
   return (
     <section className="detail-section">
       <button className="back-button" onClick={() => navigate('/')}>
@@ -81,7 +123,10 @@ export function ProductDetail() {
               <div className="carousel">
                 <div className="carousel-main">
                   <button className="carousel-nav left" aria-label="Anterior" onClick={goPrev}>‹</button>
-                  <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                  <div 
+                    style={{ position: 'relative', width: '100%', height: '100%', cursor: 'pointer' }}
+                    onClick={() => openLightbox(currentIndex)}
+                  >
                     <img
                       key={images[currentIndex]}
                       src={images[currentIndex]}
@@ -106,7 +151,10 @@ export function ProductDetail() {
                       <button
                         key={src + idx}
                         className={`thumb ${idx === currentIndex ? 'active' : ''}`}
-                        onClick={() => setCurrentIndex(idx)}
+                        onClick={() => {
+                          setCurrentIndex(idx);
+                          openLightbox(idx);
+                        }}
                         aria-label={`Imagen ${idx + 1}`}
                       >
                         <img
@@ -165,6 +213,55 @@ export function ProductDetail() {
           </div>
         )}
       </div>
+
+      {/* Lightbox Modal */}
+      {lightboxOpen && images.length > 0 && (
+        <div className="lightbox-overlay" onClick={closeLightbox}>
+          <button 
+            className="lightbox-close" 
+            onClick={closeLightbox}
+            aria-label="Cerrar"
+          >
+            ×
+          </button>
+          {images.length > 1 && (
+            <>
+              <button 
+                className="lightbox-nav lightbox-prev" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  lightboxPrev();
+                }}
+                aria-label="Imagen anterior"
+              >
+                ‹
+              </button>
+              <button 
+                className="lightbox-nav lightbox-next" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  lightboxNext();
+                }}
+                aria-label="Imagen siguiente"
+              >
+                ›
+              </button>
+            </>
+          )}
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={images[lightboxIndex]}
+              alt={`${producto.nombre} ${lightboxIndex + 1}`}
+              className="lightbox-image"
+            />
+            {images.length > 1 && (
+              <div className="lightbox-counter">
+                {lightboxIndex + 1} / {images.length}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
