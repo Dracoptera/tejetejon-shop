@@ -10,7 +10,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-02.jpg",
       "/media/Amigurumi-03.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "31cm de alto",
     materiales: "Lana peluche (chenille)",
   },
   {
@@ -20,7 +20,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-04.jpg",
     ],
-    tamaño: "18 cm",
+    tamaño: "26cm de cabeza a cola",
     materiales: "Hilado de algodón"
   },
   {
@@ -31,7 +31,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-05.jpg",
       "/media/Amigurumi-06.jpg",
     ],
-    tamaño: "22 cm",
+    tamaño: "15cm de circunferencia",
     materiales: "Hilado de algodón",
     notas: "Este bowl es blandito, no tiene alambre ni ningún tipo de material firme. Se puede 'aplatar' y amoldar"
   },
@@ -44,7 +44,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-08.jpg",
       "/media/Amigurumi-09.jpg"
     ],
-    tamaño: "25 cm",
+    tamaño: "45cm de aleta a aleta; 35cm de cabeza a cola",
     materiales: "Hilado de algodón"
   },
   {
@@ -56,7 +56,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-12.jpg",
       "/media/Amigurumi-13.jpg"
     ],
-    tamaño: "20 cm",
+    tamaño: "22cm de alto con las patas; 10cm solo el cuerpo",
     materiales: "Hilado de algodón y alambre para las extremidades.",
     notas: "Se puede agregar impermeable y botas por $400 más.",
   },
@@ -69,7 +69,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-17.jpg",
       "/media/Amigurumi-18.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "20cm de cabeza a cola; 10cm de alto",
     materiales: "Lana merino",
   },
   {
@@ -80,7 +80,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-19.jpg",
       "/media/Amigurumi-20.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "30cm de largo, 10cm de alto",
     materiales: "Lana peluche (chenille)",
   },
   {
@@ -91,7 +91,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-21.jpg",
       "/media/Amigurumi-22.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "21cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -103,7 +103,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-24.jpg",
       "/media/Amigurumi-25.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "26cm de cabeza a tentáculos",
     materiales: "Hilado de algodón, bolitas de plástico (beads)",
   },
   {
@@ -113,7 +113,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-26.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "15cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -124,7 +124,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-27.jpg",
       "/media/Amigurumi-28.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "18cm cuerpo; 37cm cabeza a cola",
     materiales: "Lana acrílica",
   },
   {
@@ -137,13 +137,13 @@ export const productos: Producto[] = [
       "/media/Amigurumi-31.jpg",
       "/media/Amigurumi-32.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
   },
   {
     id: "paloma-con-sombrero",
     nombre: "Paloma con sombrero",
-    precio: "$600",
+    precio: "$650",
     images: [
       "/media/Amigurumi-33.jpg",
       "/media/Amigurumi-34.jpg",
@@ -151,7 +151,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-36.jpg",
       "/media/Amigurumi-37.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "27cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -165,7 +165,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-41.jpg",
       "/media/Amigurumi-42.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "27cm de largo; 19cm de alto",
     materiales: "Hilado de algodón, Lana acrílica",
   },
   {
@@ -179,7 +179,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-46.jpg",
 
     ],
-    tamaño: "20 cm",
+    tamaño: "21cm de alto; 23cm de ancho (brazos a cola)",
     materiales: "Lana merino",
   },
   {
@@ -192,7 +192,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-49.jpg",
       "/media/Amigurumi-50.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "29cm de antenas a cola",
     materiales: "Hilado de algodón",
   },
   {
@@ -203,7 +203,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-51.jpg",
       "/media/Amigurumi-52.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "15cm de circunferencia",
     materiales: "Hilado de algodón",
   },
   {
@@ -216,7 +216,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-55.jpg",
       "/media/Amigurumi-56.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "35cm de alto",
     materiales: "Lana acrílica",
   },
   {
@@ -228,7 +228,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-57.jpg",
       "/media/Amigurumi-58.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -240,7 +240,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-60.jpg",
       "/media/Amigurumi-61.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -250,7 +250,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-62.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "15cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -261,7 +261,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-63.jpg",
       "/media/Amigurumi-64.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "17cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -274,7 +274,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-67.jpg",
       "/media/Amigurumi-68.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -284,7 +284,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-69.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -297,7 +297,7 @@ export const productos: Producto[] = [
       "/media/Amigurumi-72.jpg",
       "/media/Amigurumi-73.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "19cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -307,7 +307,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-74.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "12cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -317,7 +317,7 @@ export const productos: Producto[] = [
     images: [
       "/media/Amigurumi-75.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
   },
   {
@@ -333,7 +333,7 @@ export const productos: Producto[] = [
       "/media/IMG_9616.jpg",
       "/media/IMG_9618.jpg",
     ],
-    tamaño: "20 cm",
+    tamaño: "24cm de alto sentado; 30cm de cabeza a patas",
     materiales: "Hilado de algodón",
   },
 ];
