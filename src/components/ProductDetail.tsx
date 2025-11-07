@@ -53,6 +53,22 @@ export function ProductDetail() {
     setCurrentIndex((prev) => (prev + 1) % images.length);
   };
 
+  // Preload adjacent images for smoother carousel experience
+  useEffect(() => {
+    if (!images.length) return;
+    
+    const preloadImages = [currentIndex];
+    if (images.length > 1) {
+      preloadImages.push((currentIndex + 1) % images.length);
+      preloadImages.push((currentIndex - 1 + images.length) % images.length);
+    }
+    
+    preloadImages.forEach(idx => {
+      const img = new Image();
+      img.src = images[idx];
+    });
+  }, [currentIndex, images]);
+
   return (
     <section className="detail-section">
       <button className="back-button" onClick={() => navigate('/')}>
@@ -65,7 +81,23 @@ export function ProductDetail() {
               <div className="carousel">
                 <div className="carousel-main">
                   <button className="carousel-nav left" aria-label="Anterior" onClick={goPrev}>‹</button>
-                  <img src={images[currentIndex]} alt={`${producto.nombre} ${currentIndex + 1}`} />
+                  <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                    <img
+                      key={images[currentIndex]}
+                      src={images[currentIndex]}
+                      alt={`${producto.nombre} ${currentIndex + 1}`}
+                      loading="eager"
+                      decoding="async"
+                      fetchPriority="high"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        borderRadius: '12px',
+                        transition: 'opacity 0.2s ease-in-out'
+                      }}
+                    />
+                  </div>
                   <button className="carousel-nav right" aria-label="Siguiente" onClick={goNext}>›</button>
                 </div>
                 {images.length > 1 && (
@@ -77,7 +109,12 @@ export function ProductDetail() {
                         onClick={() => setCurrentIndex(idx)}
                         aria-label={`Imagen ${idx + 1}`}
                       >
-                        <img src={src} alt={`${producto.nombre} miniatura ${idx + 1}`} />
+                        <img
+                          src={src}
+                          alt={`${producto.nombre} miniatura ${idx + 1}`}
+                          loading={idx < 3 ? 'eager' : 'lazy'}
+                          decoding="async"
+                        />
                       </button>
                     ))}
                   </div>
