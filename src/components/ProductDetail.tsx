@@ -84,8 +84,8 @@ export function ProductDetail() {
                 )}
               </div>
             ) : (
-              <div style={{width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                {producto.imagen}
+              <div style={{width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f0f0f0'}}>
+                Sin imagen disponible
               </div>
             )}
           </div>

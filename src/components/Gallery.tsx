@@ -22,7 +22,9 @@ export function Gallery() {
               {producto.images?.length ? (
                 <img src={producto.images[0]} alt={producto.nombre} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
               ) : (
-                producto.imagen
+                <div style={{width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f0f0f0'}}>
+                  Sin imagen
+                </div>
               )}
             </div>
             <div className="product-info">
