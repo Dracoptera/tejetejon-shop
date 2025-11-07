@@ -224,9 +224,9 @@ export const productos: Producto[] = [
     nombre: "Gallina",
     precio: "$600",
     images: [
-      "/media/Amigurumi-56.jpg",
       "/media/Amigurumi-57.jpg",
       "/media/Amigurumi-58.jpg",
+      "/media/Amigurumi-59.jpg",
     ],
     tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
@@ -236,9 +236,9 @@ export const productos: Producto[] = [
     nombre: "Benteveo",
     precio: "$300",
     images: [
-      "/media/Amigurumi-59.jpg",
       "/media/Amigurumi-60.jpg",
       "/media/Amigurumi-61.jpg",
+      "/media/Amigurumi-62.jpg",
     ],
     tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
@@ -248,7 +248,7 @@ export const productos: Producto[] = [
     nombre: "Murciélago",
     precio: "$300",
     images: [
-      "/media/Amigurumi-62.jpg",
+      "/media/Amigurumi-63.jpg",
     ],
     tamaño: "15cm de alto",
     materiales: "Hilado de algodón",
@@ -258,8 +258,8 @@ export const productos: Producto[] = [
     nombre: "Owlbear",
     precio: "$350",
     images: [
-      "/media/Amigurumi-63.jpg",
       "/media/Amigurumi-64.jpg",
+      "/media/Amigurumi-65.jpg",
     ],
     tamaño: "17cm de alto",
     materiales: "Hilado de algodón",
@@ -269,10 +269,10 @@ export const productos: Producto[] = [
     nombre: "Tordo",
     precio: "$300",
     images: [
-      "/media/Amigurumi-65.jpg",
       "/media/Amigurumi-66.jpg",
       "/media/Amigurumi-67.jpg",
       "/media/Amigurumi-68.jpg",
+      "/media/Amigurumi-69.jpg",
     ],
     tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
@@ -282,7 +282,7 @@ export const productos: Producto[] = [
     nombre: "Dino Colorido",
     precio: "$250",
     images: [
-      "/media/Amigurumi-69.jpg",
+      "/media/Amigurumi-70.jpg",
     ],
     tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
@@ -292,10 +292,10 @@ export const productos: Producto[] = [
     nombre: "Gaviota Aviadora",
     precio: "$600",
     images: [
-      "/media/Amigurumi-70.jpg",
       "/media/Amigurumi-71.jpg",
       "/media/Amigurumi-72.jpg",
       "/media/Amigurumi-73.jpg",
+      "/media/Amigurumi-74.jpg",
     ],
     tamaño: "19cm de alto",
     materiales: "Hilado de algodón",
@@ -305,7 +305,7 @@ export const productos: Producto[] = [
     nombre: "Zorro Tejedor",
     precio: "$300",
     images: [
-      "/media/Amigurumi-74.jpg",
+      "/media/Amigurumi-75.jpg",
     ],
     tamaño: "12cm de alto",
     materiales: "Hilado de algodón",
@@ -315,7 +315,7 @@ export const productos: Producto[] = [
     nombre: "Búho Lector",
     precio: "$300",
     images: [
-      "/media/Amigurumi-75.jpg",
+      "/media/Amigurumi-76.jpg",
     ],
     tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
