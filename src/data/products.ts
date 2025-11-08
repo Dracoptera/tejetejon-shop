@@ -14,16 +14,6 @@ export const productos: Producto[] = [
     materiales: "Lana peluche (chenille)",
   },
   {
-    id: "axolote",
-    nombre: "Axolote",
-    precio: "$500",
-    images: [
-      "/media/Amigurumi-04.jpg",
-    ],
-    tamaño: "26cm de cabeza a cola",
-    materiales: "Hilado de algodón"
-  },
-  {
     id: "bowl-dragon-purpura",
     nombre: "Bowl de dragón púrpura",
     precio: "$500",
@@ -298,16 +288,6 @@ export const productos: Producto[] = [
       "/media/Amigurumi-74.jpg",
     ],
     tamaño: "19cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "zorro-tejedor",
-    nombre: "Zorro Tejedor",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-75.jpg",
-    ],
-    tamaño: "12cm de alto",
     materiales: "Hilado de algodón",
   },
   {
