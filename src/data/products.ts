@@ -14,18 +14,6 @@ export const productos: Producto[] = [
     materiales: "Lana peluche (chenille)",
   },
   {
-    id: "bowl-dragon-purpura",
-    nombre: "Bowl de dragón púrpura",
-    precio: "$500",
-    images: [
-      "/media/Amigurumi-05.jpg",
-      "/media/Amigurumi-06.jpg",
-    ],
-    tamaño: "15cm de circunferencia",
-    materiales: "Hilado de algodón",
-    notas: "Este bowl es blandito, no tiene alambre ni ningún tipo de material firme. Se puede 'aplatar' y amoldar"
-  },
-  {
     id: "mantarraya",
     nombre: "Mantarraya",
     precio: "$1,500",
@@ -222,18 +210,6 @@ export const productos: Producto[] = [
     materiales: "Hilado de algodón",
   },
   {
-    id: "benteveo",
-    nombre: "Benteveo",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-60.jpg",
-      "/media/Amigurumi-61.jpg",
-      "/media/Amigurumi-62.jpg",
-    ],
-    tamaño: "11cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
     id: "murcielago",
     nombre: "Murciélago",
     precio: "$300",
@@ -275,19 +251,6 @@ export const productos: Producto[] = [
       "/media/Amigurumi-70.jpg",
     ],
     tamaño: "16cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "gaviota-aviadora",
-    nombre: "Gaviota Aviadora",
-    precio: "$600",
-    images: [
-      "/media/Amigurumi-71.jpg",
-      "/media/Amigurumi-72.jpg",
-      "/media/Amigurumi-73.jpg",
-      "/media/Amigurumi-74.jpg",
-    ],
-    tamaño: "19cm de alto",
     materiales: "Hilado de algodón",
   },
   {
