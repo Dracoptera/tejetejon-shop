@@ -14,31 +14,6 @@ export const productos: Producto[] = [
     materiales: "Lana peluche (chenille)",
   },
   {
-    id: "mantarraya",
-    nombre: "Mantarraya",
-    precio: "$1,500",
-    images: [
-      "/media/Amigurumi-07.jpg",
-      "/media/Amigurumi-08.jpg",
-      "/media/Amigurumi-09.jpg"
-    ],
-    tamaño: "45cm de aleta a aleta; 35cm de cabeza a cola",
-    materiales: "Hilado de algodón"
-  },
-  {
-    id: "ranita",
-    nombre: "Ranita",
-    precio: "$400",
-    images: [
-      "/media/Amigurumi-11.jpg",
-      "/media/Amigurumi-12.jpg",
-      "/media/Amigurumi-13.jpg"
-    ],
-    tamaño: "22cm de alto con las patas; 10cm solo el cuerpo",
-    materiales: "Hilado de algodón y alambre para las extremidades.",
-    notas: "Se puede agregar impermeable y botas por $400 más.",
-  },
-  {
     id: "oveja",
     nombre: "Oveja",
     precio: "$400",
