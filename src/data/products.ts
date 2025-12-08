@@ -70,17 +70,6 @@ export const productos: Producto[] = [
     materiales: "Hilado de algodón",
   },
   {
-    id: "rata",
-    nombre: "Rata",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-27.jpg",
-      "/media/Amigurumi-28.jpg",
-    ],
-    tamaño: "18cm cuerpo; 37cm cabeza a cola",
-    materiales: "Lana acrílica",
-  },
-  {
     id: "cachorro-grifo",
     nombre: "Cachorro de Grifo",
     precio: "$500",
@@ -216,16 +205,6 @@ export const productos: Producto[] = [
       "/media/Amigurumi-69.jpg",
     ],
     tamaño: "11cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "dino-colorido",
-    nombre: "Dino Colorido",
-    precio: "$250",
-    images: [
-      "/media/Amigurumi-70.jpg",
-    ],
-    tamaño: "16cm de alto",
     materiales: "Hilado de algodón",
   },
   {
