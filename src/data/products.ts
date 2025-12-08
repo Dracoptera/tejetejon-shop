@@ -207,31 +207,6 @@ export const productos: Producto[] = [
     tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
   },
-  {
-    id: "buho-lector",
-    nombre: "Búho Lector",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-76.jpg",
-    ],
-    tamaño: "11cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "aurum",
-    nombre: "Aurum el Zorro Alquimista",
-    precio: "$1,500",
-    images: [
-      "/media/IMG_9605.jpg",
-      "/media/IMG_9607.jpg",
-      "/media/IMG_9608.jpg",
-      "/media/IMG_9609.jpeg",
-      "/media/IMG_9610.jpg",
-      "/media/IMG_9616.jpg",
-      "/media/IMG_9618.jpg",
-    ],
-    tamaño: "24cm de alto sentado; 30cm de cabeza a patas",
-    materiales: "Hilado de algodón",
-  },
+
 ];
 
