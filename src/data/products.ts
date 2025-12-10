@@ -174,16 +174,6 @@ export const productos: Producto[] = [
     materiales: "Hilado de algodón",
   },
   {
-    id: "murcielago",
-    nombre: "Murciélago",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-63.jpg",
-    ],
-    tamaño: "15cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
     id: "owlbear",
     nombre: "Owlbear",
     precio: "$350",
