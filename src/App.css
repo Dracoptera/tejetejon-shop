@@ -649,6 +649,123 @@ main {
   color: #333;
 }
 
+/* Barra de ordenamiento */
+.sort-bar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.5rem 0 0;
+  flex-wrap: wrap;
+}
+
+.sort-btn {
+  background: white;
+  color: #555;
+  border: 1.5px solid #ddd;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.sort-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.sort-btn.active {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+  font-weight: 600;
+}
+
+/* Sección de envíos */
+.shipping-section {
+  margin-top: 3rem;
+  padding: 2.5rem 0;
+}
+
+.shipping-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.shipping-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.shipping-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.shipping-icon {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.shipping-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.shipping-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.shipping-card p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.shipping-card p strong {
+  color: #667eea;
+}
+
+.shipping-link {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.shipping-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .shipping-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
 footer {
   background: #333;
   color: white;

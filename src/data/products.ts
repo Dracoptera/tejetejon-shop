@@ -1,6 +1,19 @@
 import { Producto } from '../types';
 
 export const productos: Producto[] = [
+
+    {
+    id: "cubone",
+    nombre: "Cubone",
+    precio: "$500",
+    images: [
+      "/media/cubone2.png",
+      "/media/cubone1.png",
+      "/media/cubone3.png",
+    ],
+    tamaño: "12cm de alto",
+    materiales: "Lana acrílica. Plástico (impresión 3D) para los huesos.",
+  },
   {
     id: "grifo-grande",
     nombre: "Grifo Grande",
@@ -13,6 +26,7 @@ export const productos: Producto[] = [
     tamaño: "31cm de alto",
     materiales: "Lana peluche (chenille)",
   },
+  
   {
     id: "tacosaurio",
     nombre: "Tacosaurio",

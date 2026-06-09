@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useMemo, useState, useCallback } from 'react';
 import { productos } from '../data/products';
+import { ShippingSection } from './ShippingSection';
 
 export function ProductDetail() {
   const { id } = useParams<{ id: string }>();
@@ -213,6 +214,8 @@ export function ProductDetail() {
           </div>
         )}
       </div>
+
+      <ShippingSection />
 
       {/* Lightbox Modal */}
       {lightboxOpen && images.length > 0 && (
