@@ -14,18 +14,6 @@ export const productos: Producto[] = [
     materiales: "Lana peluche (chenille)",
   },
   {
-    id: "oveja",
-    nombre: "Oveja",
-    precio: "$400",
-    images: [
-      "/media/Amigurumi-15.jpg",
-      "/media/Amigurumi-17.jpg",
-      "/media/Amigurumi-18.jpg",
-    ],
-    tamaño: "20cm de cabeza a cola; 10cm de alto",
-    materiales: "Lana merino",
-  },
-  {
     id: "tacosaurio",
     nombre: "Tacosaurio",
     precio: "$400",
@@ -35,17 +23,6 @@ export const productos: Producto[] = [
     ],
     tamaño: "30cm de largo, 10cm de alto",
     materiales: "Lana peluche (chenille)",
-  },
-  {
-    id: "pelicano",
-    nombre: "Pelícano",
-    precio: "$600",
-    images: [
-      "/media/Amigurumi-21.jpg",
-      "/media/Amigurumi-22.jpg",
-    ],
-    tamaño: "21cm de alto",
-    materiales: "Hilado de algodón",
   },
   {
     id: "pulpo",
@@ -69,33 +46,8 @@ export const productos: Producto[] = [
     tamaño: "15cm de alto",
     materiales: "Hilado de algodón",
   },
-  {
-    id: "cachorro-grifo",
-    nombre: "Cachorro de Grifo",
-    precio: "$500",
-    images: [
-      "/media/Amigurumi-29.jpg",
-      "/media/Amigurumi-30.jpg",
-      "/media/Amigurumi-31.jpg",
-      "/media/Amigurumi-32.jpg",
-    ],
-    tamaño: "16cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "paloma-con-sombrero",
-    nombre: "Paloma con sombrero",
-    precio: "$650",
-    images: [
-      "/media/Amigurumi-33.jpg",
-      "/media/Amigurumi-34.jpg",
-      "/media/Amigurumi-35.jpg",
-      "/media/Amigurumi-36.jpg",
-      "/media/Amigurumi-37.jpg",
-    ],
-    tamaño: "27cm de alto",
-    materiales: "Hilado de algodón",
-  },
+
+
   {
     id: "caracol-gigante",
     nombre: "Caracol Gigante",
@@ -161,18 +113,7 @@ export const productos: Producto[] = [
     tamaño: "35cm de alto",
     materiales: "Lana acrílica",
   },
-  {
-    id: "gallina",
-    nombre: "Gallina",
-    precio: "$600",
-    images: [
-      "/media/Amigurumi-57.jpg",
-      "/media/Amigurumi-58.jpg",
-      "/media/Amigurumi-59.jpg",
-    ],
-    tamaño: "16cm de alto",
-    materiales: "Hilado de algodón",
-  },
+
   {
     id: "owlbear",
     nombre: "Owlbear",
@@ -182,19 +123,6 @@ export const productos: Producto[] = [
       "/media/Amigurumi-65.jpg",
     ],
     tamaño: "17cm de alto",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "tordo",
-    nombre: "Tordo",
-    precio: "$300",
-    images: [
-      "/media/Amigurumi-66.jpg",
-      "/media/Amigurumi-67.jpg",
-      "/media/Amigurumi-68.jpg",
-      "/media/Amigurumi-69.jpg",
-    ],
-    tamaño: "11cm de alto",
     materiales: "Hilado de algodón",
   },
 
