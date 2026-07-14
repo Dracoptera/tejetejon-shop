@@ -6,8 +6,8 @@ export const productos: Producto[] = [
     nombre: "Espátula Rosada",
     precio: "$2200",
     images: [
-      "/media/IMG_7540.png",
       "/media/23408655-5E3A-4067-A87E-EB6032B6918A.png",
+      "/media/IMG_7540.png",
       "/media/3C5EC458-46A0-42FD-BC58-0CE8AE78ED4F.png",
       "/media/56084600-BEBB-4A08-85B9-18F023F6AD69.png",
     ],
