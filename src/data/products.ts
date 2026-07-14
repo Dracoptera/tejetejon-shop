@@ -2,10 +2,27 @@ import { Producto } from "../types";
 
 export const productos: Producto[] = [
   {
+    id: "espatula-rosada",
+    nombre: "Espátula Rosada",
+    precio: "$2200",
+    images: [
+      "/media/IMG_7540.png",
+      "/media/23408655-5E3A-4067-A87E-EB6032B6918A.png",
+      "/media/3C5EC458-46A0-42FD-BC58-0CE8AE78ED4F.png",
+      "/media/56084600-BEBB-4A08-85B9-18F023F6AD69.png",
+    ],
+    tamaño: "42cm de alto",
+    materiales: "Algodón. Alambre para los soportes.",
+  },
+  {
     id: "dragon-fideo-azul",
     nombre: "Dragón Fideo Azul",
     precio: "$1100",
-    images: ["/media/fideo-azul1.png", "/media/fideo-azul2.png", "/media/fideo-azul3.png"],
+    images: [
+      "/media/fideo-azul1.png",
+      "/media/fideo-azul2.png",
+      "/media/fideo-azul3.png",
+    ],
     tamaño: "15cm de alto, 30cm de largo (sin extender por completo)",
     materiales:
       "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
@@ -14,7 +31,11 @@ export const productos: Producto[] = [
     id: "dragon-fideo-grande",
     nombre: "Dragón Fideo Grande",
     precio: "$1800",
-    images: ["/media/fideo-verde1.png", "/media/fideo-verde2.png", "/media/fideo-verde3.png"],
+    images: [
+      "/media/fideo-verde1.png",
+      "/media/fideo-verde2.png",
+      "/media/fideo-verde3.png",
+    ],
     tamaño: "23cm de alto, 37cm de largo (sin extender por completo)",
     materiales:
       "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
@@ -23,7 +44,11 @@ export const productos: Producto[] = [
     id: "dragon-fideo-asistente",
     nombre: "Dragón Fideo Asistente",
     precio: "$1500",
-    images: ["/media/fideo-asistente1.png", "/media/fideo-asistente2.png", "/media/fideo-asistente3.png"],
+    images: [
+      "/media/fideo-asistente1.png",
+      "/media/fideo-asistente2.png",
+      "/media/fideo-asistente3.png",
+    ],
     tamaño: "34cm de alto",
     materiales:
       "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
