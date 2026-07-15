@@ -2,6 +2,20 @@ import { Producto } from "../types";
 
 export const productos: Producto[] = [
   {
+    id: "lechuza-de-campanario",
+    nombre: "Lechuza de Campanario",
+    precio: "$700",
+    images: [
+      "/media/40FBC137-9A90-4C64-B628-FAF94DB396F3.png",
+      "/media/855F4CCC-95F6-4550-B67C-68FF754D6CEA.png",
+      "/media/A4FEF988-D035-42FE-9AA3-C751F7F0BC6C.png",
+      "/media/FFC65FAB-F8B9-42F2-8F91-446EBBF3B128.png",
+    ],
+    tamaño: "20cm de alto",
+    materiales:
+      "Algodón. Alambre para las alas. Base de plástico impresa en 3D.",
+  },
+  {
     id: "espatula-rosada",
     nombre: "Espátula Rosada",
     precio: "$2200",
