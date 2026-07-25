@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "compress-images": "node scripts/compress-images.mjs"
+    "compress-images": "node scripts/compress-images.mjs",
+    "new-product": "node scripts/new-product.mjs",
+    "prepare": "node scripts/install-hooks.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
