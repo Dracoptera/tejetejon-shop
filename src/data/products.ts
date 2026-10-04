@@ -18,7 +18,7 @@ export const productos: Producto[] = [
   {
     id: "espatula-rosada",
     nombre: "Espátula Rosada",
-    precio: "$2200",
+    precio: "$2,000",
     images: [
       "/media/23408655-5E3A-4067-A87E-EB6032B6918A.png",
       "/media/IMG_7540.png",
@@ -27,19 +27,6 @@ export const productos: Producto[] = [
     ],
     tamaño: "42cm de alto",
     materiales: "Algodón. Alambre para los soportes.",
-  },
-  {
-    id: "dragon-fideo-azul",
-    nombre: "Dragón Fideo Azul",
-    precio: "$1100",
-    images: [
-      "/media/fideo-azul1.png",
-      "/media/fideo-azul2.png",
-      "/media/fideo-azul3.png",
-    ],
-    tamaño: "15cm de alto, 30cm de largo (sin extender por completo)",
-    materiales:
-      "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
   },
   {
     id: "dragon-fideo-grande",
@@ -51,19 +38,6 @@ export const productos: Producto[] = [
       "/media/fideo-verde3.png",
     ],
     tamaño: "23cm de alto, 37cm de largo (sin extender por completo)",
-    materiales:
-      "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
-  },
-  {
-    id: "dragon-fideo-asistente",
-    nombre: "Dragón Fideo Asistente",
-    precio: "$1500",
-    images: [
-      "/media/fideo-asistente1.png",
-      "/media/fideo-asistente2.png",
-      "/media/fideo-asistente3.png",
-    ],
-    tamaño: "34cm de alto",
     materiales:
       "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
   },
@@ -108,15 +82,6 @@ export const productos: Producto[] = [
     tamaño: "26cm de cabeza a tentáculos",
     materiales: "Hilado de algodón, bolitas de plástico (beads)",
   },
-  {
-    id: "criatura tomate",
-    nombre: "Criatura tomate",
-    precio: "$300",
-    images: ["/media/Amigurumi-26.jpg"],
-    tamaño: "15cm de alto",
-    materiales: "Hilado de algodón",
-  },
-
   {
     id: "caracol-gigante",
     nombre: "Caracol Gigante",
@@ -168,7 +133,7 @@ export const productos: Producto[] = [
   {
     id: "fenix",
     nombre: "Fénix",
-    precio: "$1,000",
+    precio: "$900",
     images: [
       "/media/Amigurumi-53.jpg",
       "/media/Amigurumi-54.jpg",
