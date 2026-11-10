@@ -2,20 +2,6 @@ import { Producto } from "../types";
 
 export const productos: Producto[] = [
   {
-    id: "lechuza-de-campanario",
-    nombre: "Lechuza de Campanario",
-    precio: "$700",
-    images: [
-      "/media/40FBC137-9A90-4C64-B628-FAF94DB396F3.png",
-      "/media/855F4CCC-95F6-4550-B67C-68FF754D6CEA.png",
-      "/media/A4FEF988-D035-42FE-9AA3-C751F7F0BC6C.png",
-      "/media/FFC65FAB-F8B9-42F2-8F91-446EBBF3B128.png",
-    ],
-    tamaño: "20cm de alto",
-    materiales:
-      "Algodón. Alambre para las alas. Base de plástico impresa en 3D.",
-  },
-  {
     id: "espatula-rosada",
     nombre: "Espátula Rosada",
     precio: "$2,000",
@@ -27,19 +13,6 @@ export const productos: Producto[] = [
     ],
     tamaño: "42cm de alto",
     materiales: "Algodón. Alambre para los soportes.",
-  },
-  {
-    id: "dragon-fideo-grande",
-    nombre: "Dragón Fideo Grande",
-    precio: "$1800",
-    images: [
-      "/media/fideo-verde1.png",
-      "/media/fideo-verde2.png",
-      "/media/fideo-verde3.png",
-    ],
-    tamaño: "23cm de alto, 37cm de largo (sin extender por completo)",
-    materiales:
-      "Lana merino. Plástico (impresión 3D) para las garras. Son afiladas, no es apto como juguete.",
   },
   {
     id: "cubone",
@@ -61,15 +34,6 @@ export const productos: Producto[] = [
     tamaño: "31cm de alto",
     materiales: "Lana peluche (chenille)",
   },
-
-  {
-    id: "tacosaurio",
-    nombre: "Tacosaurio",
-    precio: "$400",
-    images: ["/media/Amigurumi-19.jpg", "/media/Amigurumi-20.jpg"],
-    tamaño: "30cm de largo, 10cm de alto",
-    materiales: "Lana peluche (chenille)",
-  },
   {
     id: "pulpo",
     nombre: "Pulpo",
@@ -81,20 +45,6 @@ export const productos: Producto[] = [
     ],
     tamaño: "26cm de cabeza a tentáculos",
     materiales: "Hilado de algodón, bolitas de plástico (beads)",
-  },
-  {
-    id: "caracol-gigante",
-    nombre: "Caracol Gigante",
-    precio: "$1,000",
-    images: [
-      "/media/Amigurumi-38.jpg",
-      "/media/Amigurumi-39.jpg",
-      "/media/Amigurumi-40.jpg",
-      "/media/Amigurumi-41.jpg",
-      "/media/Amigurumi-42.jpg",
-    ],
-    tamaño: "27cm de largo; 19cm de alto",
-    materiales: "Hilado de algodón, Lana acrílica",
   },
   {
     id: "oruga",
@@ -120,14 +70,6 @@ export const productos: Producto[] = [
       "/media/Amigurumi-50.jpg",
     ],
     tamaño: "29cm de antenas a cola",
-    materiales: "Hilado de algodón",
-  },
-  {
-    id: "bowl-dragon-verde",
-    nombre: "Bowl de dragón verde",
-    precio: "$500",
-    images: ["/media/Amigurumi-51.jpg", "/media/Amigurumi-52.jpg"],
-    tamaño: "15cm de circunferencia",
     materiales: "Hilado de algodón",
   },
   {
